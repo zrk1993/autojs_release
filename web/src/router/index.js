@@ -101,60 +101,60 @@ export const constantRoutes = [
         component: () => import('@/views/script/list'),
         meta: { title: '脚本列表', icon: 'form' }
       },
-      {
-        path: 'paypal',
-        name: 'PayPal',
-        meta: { title: 'PayPal脚本', icon: 'nested' },
-        component: Layout2,
-        redirect: '/paypal/email',
-        children: [
-          {
-            path: 'account',
-            name: '账号',
-            component: () => import('@/views/paypal/account'),
-            meta: { title: '账号', icon: 'form' }
-          },
-          {
-            path: 'email',
-            name: '邮箱',
-            component: () => import('@/views/paypal/email'),
-            meta: { title: '邮箱', icon: 'form' }
-          },
-          {
-            path: 'message',
-            name: '留言',
-            component: () => import('@/views/paypal/message'),
-            meta: { title: '留言', icon: 'form' }
-          },
-        ]
-      },
-      {
-        path: 'sms',
-        name: 'sms',
-        meta: { title: '短信群发脚本', icon: 'nested' },
-        component: Layout2,
-        redirect: '/sms/phone',
-        children: [
-          {
-            path: 'phone',
-            name: '手机号码列表',
-            component: () => import('@/views/sms/phone'),
-            meta: { title: '手机号码列表', icon: 'form' }
-          },
-          {
-            path: 'content',
-            name: '发送内容列表',
-            component: () => import('@/views/sms/content'),
-            meta: { title: '发送内容列表', icon: 'form' }
-          },
-          {
-            path: 'device',
-            name: '归属设备',
-            component: () => import('@/views/sms/device'),
-            meta: { title: '归属设备', icon: 'form' }
-          },
-        ]
-      },
+      // {
+      //   path: 'paypal',
+      //   name: 'PayPal',
+      //   meta: { title: 'PayPal脚本', icon: 'nested' },
+      //   component: Layout2,
+      //   redirect: '/paypal/email',
+      //   children: [
+      //     {
+      //       path: 'account',
+      //       name: '账号',
+      //       component: () => import('@/views/paypal/account'),
+      //       meta: { title: '账号', icon: 'form' }
+      //     },
+      //     {
+      //       path: 'email',
+      //       name: '邮箱',
+      //       component: () => import('@/views/paypal/email'),
+      //       meta: { title: '邮箱', icon: 'form' }
+      //     },
+      //     {
+      //       path: 'message',
+      //       name: '留言',
+      //       component: () => import('@/views/paypal/message'),
+      //       meta: { title: '留言', icon: 'form' }
+      //     },
+      //   ]
+      // },
+      // {
+      //   path: 'sms',
+      //   name: 'sms',
+      //   meta: { title: '短信群发脚本', icon: 'nested' },
+      //   component: Layout2,
+      //   redirect: '/sms/phone',
+      //   children: [
+      //     {
+      //       path: 'phone',
+      //       name: '手机号码列表',
+      //       component: () => import('@/views/sms/phone'),
+      //       meta: { title: '手机号码列表', icon: 'form' }
+      //     },
+      //     {
+      //       path: 'content',
+      //       name: '发送内容列表',
+      //       component: () => import('@/views/sms/content'),
+      //       meta: { title: '发送内容列表', icon: 'form' }
+      //     },
+      //     {
+      //       path: 'device',
+      //       name: '归属设备',
+      //       component: () => import('@/views/sms/device'),
+      //       meta: { title: '归属设备', icon: 'form' }
+      //     },
+      //   ]
+      // },
     ]
   },
 
