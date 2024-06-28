@@ -1,6 +1,6 @@
 ## AutoJs Web Control
 
-[体验地址](http://47.107.251.62:9318/)
+[体验地址](http://47.107.251.62:9318/)  admin/123456
 
 nodejs typescript vuejs  [SoulJs](https://github.com/zrk1993/souljs) [AutoJs](https://github.com/hyb1996/Auto.js)
 
