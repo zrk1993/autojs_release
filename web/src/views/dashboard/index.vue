@@ -1,7 +1,7 @@
 <template>
   <div class="dashboard-container">
     <div class="dashboard-text">
-      Autojs Web Control System
+      Autojs Web Control System <a href="/" target="_blank">加我wx进交流群</a>
     </div>
   </div>
 </template>
