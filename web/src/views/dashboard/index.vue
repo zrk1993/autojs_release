@@ -3,7 +3,7 @@
     <div class="dashboard-text">
       <div>Autojs Web Control System</div>
       <div style="margin-top: 12px;text-align: center;">
-        <a style="font-size: 14px" href="/qrcode_u.wechat.com.png" target="_blank">加我wx备注进交流群</a>
+        <a style="font-size: 12px" href="/qrcode_u.wechat.com.png" target="_blank">加我wx备注进交流群</a>
       </div
     </div>
   </div>
@@ -29,8 +29,7 @@ export default {
   }
   &-text {
     font-size: 30px;
-    line-height: 46px;
-    margin-top: 2em;
+    margin-top: 30vh;
     text-align: center;
   }
 }
